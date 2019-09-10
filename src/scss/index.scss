@@ -1,0 +1,25 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-white;
+  color: $color-black;
+  font-family: $font-family-serif;
+  font-size: $font-size;
+  margin: 2em auto;
+  max-width: $max-width;
+  padding: 0 1em;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+}
