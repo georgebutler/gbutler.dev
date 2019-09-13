@@ -25,7 +25,12 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: "George Butler",
-      template: "./src/index.html"
+      template: "src/index.html"
+    }),
+    new HtmlWebpackPlugin({
+      title: "George Butler | 404",
+      filename: "404.html",
+      template: "src/404.html"
     })
   ]
 };
